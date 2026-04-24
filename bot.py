@@ -1,6 +1,7 @@
 from flask import Flask, request, jsonify
 import asyncio
 from discord import Client, Intents
+import os
 
 app = Flask(__name__)
 
